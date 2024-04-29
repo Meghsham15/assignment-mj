@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 15em;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.movie-card p {
+  margin-bottom: 10px;
+}
+
+/* Style for select element */
+.select {
+  width: 200px; /* Set the width as desired */
+  padding: 10px; /* Add padding for better appearance */
+  font-size: 16px; /* Set font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: #fff; /* Set background color */
+}
+
+/* Style for option elements */
+.select option {
+  padding: 10px; /* Add padding */
+  font-size: 16px; /* Set font size */
+  border-bottom: 1px solid #ccc; /* Add border bottom to separate options */
+}
+
+/* Style for selected option */
+.select option:checked {
+  background-color: #e0e0e0; /* Change background color for selected option */
+}
